@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Salary PayCheck Calculator</title>
+
+<link rel="stylesheet" href="asset/css/bootstrap.css" />
+<link rel="stylesheet" href="asset/css/style.css" />
+
+</head>
+<body>
+
+<div class="row">
+	<div class="col-md-4 form">
+		<section>
+			<form>
+				<fieldset>
+					<legend class="text-center title">Salary Paycheck Calculator</legend>
+					<div class="col-xs-9">
+						<label>
+							Rice
+							<input id="salary" type="input" />
+						</label>
+					</div>
+					<div class="col-xs-3">
+					<button class="btn-primary">Calc</button>
+					</div>
+					<div class="col-md-12">
+						<div class="col-xs-4">
+							<label>
+								INSS
+							</label>
+						</div>
+						<div class="col-xs-4">
+							<span class="INSS">R$ 0,0</span>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="col-xs-4">
+							<label>
+								IRPF
+							</label>
+						</div>
+						<div class="col-xs-4">
+							<span class="IRPF">R$ 0,0</span>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="col-xs-4">
+							<label>
+								Liquid Salary
+							</label>
+						</div>
+						<div class="col-xs-4">
+							<span class="liquid">R$ 0,0</span>
+						</div>
+					</div>
+				</fieldset>
+			</form>
+		</section>
+	</div>
+</div>
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="asset/js/PayCheckService.js"></script>
+<script src="asset/js/PayCheckController.js"></script>
+
+</body>
+</html>
